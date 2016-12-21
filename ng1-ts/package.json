@@ -1,6 +1,6 @@
 {
-  "name": "analytics-ui-components-project",
-  "description": "Example usage of analytics-ui-components for different frontend environments.",
+  "name": "analytics-ui-components-project-ng1-ts",
+  "description": "Example usage of analytics-ui-components for Angular 1 / TypeScript",
   "scripts": {
     "start": "concurrently --kill-others \"npm run rollup-w\" \"npm run server\"",
     "server": "lite-server",
