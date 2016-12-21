@@ -1,0 +1,32 @@
+{
+  "name": "analytics-ui-components-project",
+  "description": "Example usage of analytics-ui-components for different frontend environments.",
+  "scripts": {
+    "start": "concurrently --kill-others \"npm run rollup-w\" \"npm run server\"",
+    "server": "lite-server",
+    "rollup": "rollup -c",
+    "rollup-w": "rollup -c -w",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zalando-incubator/analytics-ui-components-project.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "analytics-ui-components": "git+https://github.com/zalando-incubator/analytics-ui-components.git",
+    "angular": "1.6.0",
+    "d3": "3.5.17",
+    "jquery": "3.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "3.1.0",
+    "lite-server": "2.2.2",
+    "rollup": "0.37.2",
+    "rollup-plugin-includepaths": "0.2.1",
+    "rollup-plugin-typescript": "0.8.1",
+    "rollup-watch": "2.5.0",
+    "typescript": "2.1.4",
+    "typings": "2.1.0"
+  }
+}

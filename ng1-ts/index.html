@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/">
+    <title>analytics-ui-components (ng1-ts project)</title>
+
+    <!-- required dependencies included explicitly -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/d3/d3.min.js"></script>
+
+    <!-- required dependencies -->
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+
+    <!-- built code -->
+    <script src="build/index.js"></script>
+
+    <!-- css files included explicitly -->
+    <link rel="stylesheet" type="text/css" href="node_modules/analytics-ui-components/src/components/line-chart/line-chart.css"/>
+</head>
+
+<body>
+<div ng-controller="AppCtrl as app">
+    <h1 ng-bind="app.title"></h1>
+
+    <div class="component">
+        <h2>&lt;ba-line-chart&gt;</h2>
+        <div class="row">
+            <ba-line-chart data="app.lineChart.array1" width="100" height="50"></ba-line-chart>
+            <ba-line-chart data="app.lineChart.array2" width="100" height="50" dot="0"></ba-line-chart>
+        </div>
+
+        <div class="config">
+            <h4>configuration</h4>
+            <input type="number" ng-model="app.lineChart.array1[0].y"/>
+            <input type="number" ng-model="app.lineChart.array1[1].y"/>
+            <input type="number" ng-model="app.lineChart.array1[2].y"/>
+            <input type="number" ng-model="app.lineChart.array1[3].y"/>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
