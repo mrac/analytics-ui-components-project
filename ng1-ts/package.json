@@ -2,7 +2,7 @@
   "name": "analytics-ui-components-project-ng1-ts",
   "description": "Example usage of analytics-ui-components for Angular 1 / TypeScript",
   "scripts": {
-    "start": "concurrently --kill-others \"npm run rollup-w\" \"npm run server\"",
+    "start": "npm run rollup && concurrently --kill-others \"npm run rollup-w\" \"npm run server\"",
     "server": "lite-server",
     "rollup": "rollup -c",
     "rollup-w": "rollup -c -w",
