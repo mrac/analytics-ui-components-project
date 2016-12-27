@@ -1,0 +1,26 @@
+{
+  "name": "analytics-ui-components-project-ng1-es5-commonjs",
+  "description": "Example usage of analytics-ui-components for Angular 1 / ECMAScript 5 / CommonJS",
+  "scripts": {
+    "start": "npm run build && concurrently --kill-others \"npm run watch\" \"npm run server\"",
+    "server": "lite-server",
+    "build": "mkdir -p build && browserify index.js -o build/index.js",
+    "watch": "mkdir -p build && watchify index.js -o build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zalando-incubator/analytics-ui-components-project.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "analytics-ui-components": "git+https://github.com/zalando-incubator/analytics-ui-components.git",
+    "angular": "1.6.0",
+    "d3": "3.5.17"
+  },
+  "devDependencies": {
+    "browserify": "13.1.1",
+    "concurrently": "3.1.0",
+    "lite-server": "2.2.2",
+    "watchify": "3.8.0"
+  }
+}
