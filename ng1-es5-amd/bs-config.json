@@ -1,0 +1,12 @@
+{
+  "port": 8010,
+  "files": [
+    "*.{html,css,js}",
+    "./src/**/*.{html,css,js}",
+    "./build/**/*.{html,css,js}"
+  ],
+  "startPath": "index.html",
+  "server": {
+    "baseDir": ""
+  }
+}

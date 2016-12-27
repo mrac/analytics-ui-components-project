@@ -1,0 +1,21 @@
+{
+  "name": "analytics-ui-components-project-ng1-es5-amd",
+  "description": "Example usage of analytics-ui-components for Angular 1 / ECMAScript 5 / AMD",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zalando-incubator/analytics-ui-components-project.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "analytics-ui-components": "git+https://github.com/zalando-incubator/analytics-ui-components.git",
+    "angular": "1.6.0",
+    "d3": "3.5.17"
+  },
+  "devDependencies": {
+    "lite-server": "2.2.2",
+    "requirejs": "2.3.2"
+  }
+}
