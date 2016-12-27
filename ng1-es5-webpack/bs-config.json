@@ -1,5 +1,5 @@
 {
-  "port": 8030,
+  "port": 8050,
   "files": [
     "*.{html,css,js}",
     "./src/**/*.{html,css,js}",
