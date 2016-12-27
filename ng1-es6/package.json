@@ -1,0 +1,28 @@
+{
+  "name": "analytics-ui-components-project-ng1-es6",
+  "description": "Example usage of analytics-ui-components for Angular 1 / ECMAScript 6",
+  "scripts": {
+    "start": "npm run build && concurrently --kill-others \"npm run watch\" \"npm run server\"",
+    "server": "lite-server",
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zalando-incubator/analytics-ui-components-project.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "analytics-ui-components": "git+https://github.com/zalando-incubator/analytics-ui-components.git",
+    "angular": "1.6.0",
+    "d3": "3.5.17"
+  },
+  "devDependencies": {
+    "concurrently": "3.1.0",
+    "lite-server": "2.2.2",
+    "rollup": "0.38.0",
+    "rollup-plugin-babel": "2.7.1",
+    "rollup-plugin-node-resolve": "2.0.0",
+    "rollup-watch": "2.5.0"
+  }
+}
