@@ -1,4 +1,4 @@
-requirejs(['./node_modules/analytics-ui-components/dist/analytics-ui-components.amd.js'], function (analyticsUiComponents) {
+requirejs(['analytics-ui-components'], function (analyticsUiComponents) {
 
     angular.module('app', [
         analyticsUiComponents.name
