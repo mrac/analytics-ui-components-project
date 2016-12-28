@@ -1,0 +1,21 @@
+{
+  "name": "analytics-ui-components-project-ng1-system",
+  "description": "Example usage of analytics-ui-components for Angular 1 / System",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zalando-incubator/analytics-ui-components-project.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "analytics-ui-components": "git+https://github.com/zalando-incubator/analytics-ui-components.git",
+    "angular": "1.6.0",
+    "d3": "3.5.17"
+  },
+  "devDependencies": {
+    "lite-server": "2.2.2",
+    "systemjs": "0.19.41"
+  }
+}
