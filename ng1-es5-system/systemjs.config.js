@@ -6,7 +6,8 @@
 (function (global) {
 
     var map = {
-        'app': ''
+        'app': '',
+        'analytics-ui-components': 'node_modules/analytics-ui-components/build/src'
     };
 
     var packages = {
@@ -16,7 +17,7 @@
             defaultExtension: 'js'
         },
         'analytics-ui-components': {
-            main: '../node_modules/analytics-ui-components/build/src/analytics-ui-components.module',
+            main: 'analytics-ui-components.module',
             format: 'register',
             defaultExtension: 'js'
         }
