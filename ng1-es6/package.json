@@ -14,8 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "analytics-ui-components": "git+https://github.com/zalando-incubator/analytics-ui-components.git",
-    "angular": "1.6.0",
-    "d3": "3.5.17"
+    "angular": "1.6.1"
   },
   "devDependencies": {
     "concurrently": "3.1.0",

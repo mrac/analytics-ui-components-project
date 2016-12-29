@@ -3,12 +3,7 @@
     "module": "commonjs",
     "target": "es5",
     "moduleResolution": "node",
-    "baseUrl": ".",
-    "paths": {
-      "analytics-ui-components.module": [
-        "node_modules/analytics-ui-components/src/analytics-ui-components.module"
-      ]
-    }
+    "baseUrl": "."
   },
   "compileOnSave": false,
   "files": [
